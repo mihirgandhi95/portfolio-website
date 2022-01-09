@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Certifications from './pages/Certifications';
+import Experiences from './pages/Experiences';
 
 export default function App() {
   return (
@@ -21,6 +22,9 @@ export default function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/experiences">
+            <Experiences />
           </Route>
           <Route path="/projects">
             <Projects />

@@ -104,7 +104,7 @@ export default function TestimonialsSection() {
       <div className="container">
         <SectionTitle
           subheading="see what other people say about me"
-          heading="Recommendations"
+          heading="References"
         />
         <div className="testimonial__wrapper">
           <SwitchTransition component={null}>

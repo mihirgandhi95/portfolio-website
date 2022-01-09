@@ -6,6 +6,7 @@ import CertificationsSection from '../components/CertificationsSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import ContactBanner from '../components/ContactBanner';
 import HeroSection from '../components/HeroSection';
+import ExperiencesSection from '../components/ExperiencesSection';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
+      <ExperiencesSection />
       <ProjectsSection />
       <CertificationsSection />
       <TestimonialsSection />
