@@ -7,8 +7,17 @@ import CourseManagerImg from '../images/coursemanagerimg.png';
 import PlagiarismDetectorImg from '../images/plagiarismdetectorimg.png';
 import SearchEngineImg from '../images/searchengineimg.png';
 import PersonProjectImg from '../images/personprojectimg.png';
+import ShoppingCartImg from '../images/shoppingcartimg.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Shopping Cart - E-Commerce Website',
+    desc:
+      'The Application uses the Redis Server and Node.js with Express.js to perform CRUD Operations on store items.',
+    img: ShoppingCartImg,
+    link: 'http://mihirgandhi.com/',
+  },
   {
     id: uuidv4(),
     name: 'The Person Project',
