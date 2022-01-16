@@ -146,6 +146,17 @@ export default function About() {
                 items={['Node', 'Express', 'PHP', 'SpringBoot']}
               />
               <AboutInfoItem
+                title="DBMS"
+                items={[
+                  'MongoDB',
+                  'Apache Cassandra',
+                  'Redis',
+                  'PostgreSQL',
+                  'Microsoft SQL Server',
+                  'MySQL',
+                ]}
+              />
+              <AboutInfoItem
                 title="DevOps"
                 items={[
                   'Jenkins',
