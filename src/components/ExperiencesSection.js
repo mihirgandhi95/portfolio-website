@@ -86,7 +86,7 @@ export default function ExperiencesSection() {
             }}
           >
             {experiences.map((experience, index) => {
-              if (index >= 8) return;
+              if (index >= 18) return;
               return (
                 <SwiperSlide key={experience.id}>
                   <ExperienceItem

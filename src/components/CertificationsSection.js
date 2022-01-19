@@ -86,7 +86,7 @@ export default function CertificationsSection() {
             }}
           >
             {certifications.map((certification, index) => {
-              if (index >= 8) return;
+              if (index >= 18) return;
               return (
                 <SwiperSlide key={certification.id}>
                   <CertificationItem
