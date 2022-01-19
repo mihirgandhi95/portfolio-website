@@ -7,22 +7,31 @@ import CourseManagerImg from '../images/coursemanagerimg.png';
 import PlagiarismDetectorImg from '../images/plagiarismdetectorimg.png';
 import SearchEngineImg from '../images/searchengineimg.png';
 import PersonProjectImg from '../images/personprojectimg.png';
-import ShoppingCartImg from '../images/shoppingcartimg.png';
+import CassandraImg from '../images/cassandraimg.png';
+import RedisImg from '../images/redisimg.png';
 
 const projects = [
   {
     id: uuidv4(),
     name: 'Shopping Cart - E-Commerce Website',
     desc:
-      'The Application uses the Redis Server and Node.js with Express.js to perform CRUD Operations on store items.',
-    img: ShoppingCartImg,
+      'Implemented Append Only File(AOF) and Redis Database Backup(RDB) File using a cron job functionality for persisting shopping cart items and REST API endpoints using Node.js and Express with EJS templates for querying Redis KeyValue stores using Redis Database Commands for Lists and Hashes.',
+    img: RedisImg,
+    link: 'http://mihirgandhi.com/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Cassandra Server - ShoutApp',
+    desc:
+      'Designed and implemented a Distributed Database Management System using Apache Cassandra Core Server, Nodetool Admin CLI, and CQL Utility. Implemented a NodeJS application connected to the Cassandra Keyspace using the cassandra driver and using ExpressJS and Jade to execute single and batch queries on tables in the Cassandra Keyspace using CQL.',
+    img: CassandraImg,
     link: 'http://mihirgandhi.com/',
   },
   {
     id: uuidv4(),
     name: 'The Person Project',
     desc:
-      'The Person Project aims to understand why people do what they do. Our goal is to test specific hypotheses about human social cognition and behavior.',
+      'Coded a 3000 line javascript study(the Implicit Association Test) for the Person Project which is a measure within social psychology designed to detect the strength of a person’s subconscious association between mental representations of objects(concepts) in memory and made it responsive to mobile platforms by quickly implementing the solution in JavaScript, Bootstrap and jQuery.',
     img: PersonProjectImg,
     link: 'https://www.thepersonproject.org/',
   },
