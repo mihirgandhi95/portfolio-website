@@ -9,8 +9,17 @@ import SearchEngineImg from '../images/searchengineimg.png';
 import PersonProjectImg from '../images/personprojectimg.png';
 import CassandraImg from '../images/cassandraimg.png';
 import RedisImg from '../images/redisimg.png';
+import LinuxClusterImg from '../images/linuxclusterimg.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Highly Available Linux-CentOS Cluster',
+    desc:
+      'Created a highly available three node Linux Cluster using CentOS 7, RHEL Pacemaker, and hosting an enterprise web application using the Apache HTTP server, and a shared filesystem created from an iSCSI target server for shared storage access. Performed fencing by configuring STONITH(Shoot The Other Node In The Head) to ensure data integrity and avoid resource utilization by a faulty node in the cluster using pcs. Implemented a Virtual IP for accessing the enterprise web application using a shared IP address.',
+    img: LinuxClusterImg,
+    link: 'http://mihirgandhi.com/',
+  },
   {
     id: uuidv4(),
     name: 'Shopping Cart - E-Commerce Website',
