@@ -18,8 +18,8 @@ const testimonials = [
   {
     id: 3,
     name: 'Suyash Srivastava',
-    title: 'Associate',
-    org: 'Shardul Amarchand Mangaldas & Co.',
+    title: 'Associate Counsel, Product and Commercial, APAC',
+    org: 'Uber',
     desc:
       'Mihir is a talented computer professional who has a zeal to outperform in his field. I have known him since his undergraduate college days, and even then he was clear on his professional goals. While interning alongside Mihir in AIESEC Mauritius, he undertook extensive efforts as a team leader to help women entrepreneurs on a pro-bono basis to help them build their business online - on website and digital platforms. He was collaborative, approachable and had critical problem solving skills through which he was able to bring change in the lives of some people of Mauritius.',
   },
