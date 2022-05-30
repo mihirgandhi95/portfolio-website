@@ -7,14 +7,22 @@ import Ulsterimg from '../images/ulster.png';
 import NWECimg from '../images/nwecMauritius.png';
 import AIESECimg from '../images/aiesec.png';
 import Angersimg from '../images/angers.png';
+import Morganimg from '../images/morgan.png';
 
 const experiences = [
+  {
+    id: uuidv4(),
+    name: 'Associate Software Engineer - Morgan Stanley',
+    desc: 'May 2022 - PRESENT',
+    img: Morganimg,
+    link: '',
+  },
   {
     id: uuidv4(),
     name:
       'Consultant - Senior Software Engineer - Mutual of Omaha, Insurance Company',
     desc:
-      'August 2020 - PRESENT - Micro services - Java, Spring, Docker, Kubernetes, NodeJS, VueJS, SAP BOE API, Okta',
+      'August 2020 - May 2022 - Micro services - Java, Spring, Docker, Kubernetes, NodeJS, VueJS, SAP BOE API, Okta',
     img: Mutualimg,
     link: '',
   },

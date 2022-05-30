@@ -177,7 +177,11 @@ export default function About() {
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
-                title="August 2020-Present"
+                title="May 2022-Present"
+                items={['Associate Software Engineer at Morgan Stanley']}
+              />
+              <AboutInfoItem
+                title="August 2020- May 2022"
                 items={[
                   'Full Stack Software Developer - Consultant at Mutual of Omaha, Insurance Company',
                 ]}
