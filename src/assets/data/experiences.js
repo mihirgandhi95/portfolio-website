@@ -7,7 +7,7 @@ import Ulsterimg from '../images/ulster.png';
 import NWECimg from '../images/nwecMauritius.png';
 import AIESECimg from '../images/aiesec.png';
 import Angersimg from '../images/angers.png';
-import Morganimg from '../images/morgan.png';
+import Morganimg from '../images/morganstanley.png';
 
 const experiences = [
   {
